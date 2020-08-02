@@ -1263,8 +1263,8 @@ body {
 
 .about--options>a {
     position: relative;
-    max-width: 150px;
-    max-height: 75px;
+    width: 150px !important;
+    height: 75px !important;
     text-decoration: none;
     color: #fff;
     border: 10px solid #0f33ff;
