@@ -7,15 +7,12 @@
     .cursor3 {
         display: none;
     }
-    .mute-border{
-        display: none;
-    }
 }
 @media (max-width: 767.98px){
-    
+    .intro--banner::before{
+        background-image: url(../img/introduction-visual.png);
+    }
 }
 @media (max-width: 575.98px){
-    .intro--banner::before{
-        background-image: url(../img/introduction-visual.png) !important;
-    }
+    
 }
