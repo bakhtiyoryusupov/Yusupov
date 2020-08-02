@@ -9,7 +9,7 @@
     }
 }
 @media (max-width: 767.98px){
-    .intro{
+    .intro--banner::before{
         background-image: url(../img/introduction-visual.png);
     }
 }
