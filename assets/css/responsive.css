@@ -43,4 +43,7 @@
     .intro--options p{
         font-size: 12px;
     }
+    .about--banner{
+        margin-bottom: 30px;
+    }
 }

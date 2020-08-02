@@ -1263,14 +1263,16 @@ body {
 
 .about--options>a {
     position: relative;
-    width: 150px;
-    height: 75px;
+    max-width: 150px;
+    max-height: 75px;
     text-decoration: none;
     color: #fff;
     border: 10px solid #0f33ff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .about--options>a:nth-child(1) {
@@ -1370,7 +1372,17 @@ body {
     }
 
     .about--options {
-        display: none
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .about--options a{
+        -ms-flex: 0 0 40% !important;
+        flex: 0 0 40% !important;
+        max-width: 40% !important;
+        margin-right: 15px;
+        margin-bottom: 30px;
     }
 }
 
