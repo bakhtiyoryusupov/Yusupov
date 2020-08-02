@@ -10,10 +10,37 @@
     .mute-border{
         display: none;
     }
+    .intro--options h3{
+        margin-top: 0 !important;
+        margin-bottom: 8px !important;
+    }
+    .intro--options p{
+        margin-top: 0px !important;
+        margin-bottom: 8px;
+    }
+    .intro--banner h1{
+        margin-bottom: 25px !important;
+    }
 }
 @media (max-width: 767.98px){
+    .intro--options a{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .intro--banner button, .intro--banner h1{
+        transform: translateY(-50px);
+    }
     
 }
 @media (max-width: 575.98px){
-    
+    .intro--banner button, .intro--banner h1{
+        transform: translateY(0px);
+    }
+    .intro--options h3{
+        font-size: 15px;
+    }
+    .intro--options p{
+        font-size: 12px;
+    }
 }
