@@ -1271,8 +1271,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
 }
 
 .about--options>a:nth-child(1) {
@@ -1378,9 +1376,9 @@ body {
         
     }
     .about--options a{
-        -ms-flex: 0 0 40% !important;
-        flex: 0 0 40% !important;
-        max-width: 40% !important;
+        -ms-flex: 0 0 25% !important;
+        flex: 0 0 25% !important;
+        max-width: 25% !important;
         margin-right: 15px;
         margin-bottom: 30px;
     }
