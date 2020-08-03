@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body onload="startSound()">
+  <div class="copyright_bar text-center">Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This website powered by <a href="/" target="_blank">YUSUPOV</a></div>
   <audio loop autoplay hidden height="0" width="0">
     <source src="audio/leveltwo_ambient_4_lufs_18.mp3">
     <source src="audio/leveltwo_ambient_4_lufs_18.ogg">
@@ -217,7 +218,7 @@
             <div class="hire">
               <h2>You want me to do</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form class="work-request" action="https://formspree.io/maypvjly" method="POST">
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="web development">
@@ -273,7 +274,7 @@
                       Webdesign
                     </label>
                     <input id="opt-6" type="checkbox" value="logo branding">
-                    <label for="opt-6">
+                    <label for="opt-6" class="logobranding">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
                       <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
@@ -290,7 +291,7 @@
                     <label for="name">Name</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input id="email" name="_replyto" type="email" spellcheck="false">
                     <label for="email">Email</label>
                   </div>
                   <div class="information-message">

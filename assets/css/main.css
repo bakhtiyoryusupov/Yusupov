@@ -1,35 +1,4 @@
-@font-face {
-    font-family: 'Montserrat';
-    src: url("fonts/Montserrat-Black.eot");
-    src: local("☺"), url("fonts/Montserrat-Black.woff") format("woff"), url("fonts/Montserrat-Black.ttf") format("truetype"), url("fonts/Montserrat-Black.svg") format("svg");
-    font-weight: 900;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url("fonts/Montserrat-Bold.eot");
-    src: local("☺"), url("fonts/Montserrat-Bold.woff") format("woff"), url("fonts/Montserrat-Bold.ttf") format("truetype"), url("fonts/Montserrat-Bold.svg") format("svg");
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url("fonts/Montserrat-Regular.eot");
-    src: local("☺"), url("fonts/Montserrat-Regular.woff") format("woff"), url("fonts/Montserrat-Regular.ttf") format("truetype"), url("fonts/Montserrat-Regular.svg") format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url("fonts/Montserrat-Light.eot");
-    src: local("☺"), url("fonts/Montserrat-Light.woff") format("woff"), url("fonts/Montserrat-Light.ttf") format("truetype"), url("fonts/Montserrat-Light.svg") format("svg");
-    font-weight: 300;
-    font-style: normal
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
     font-family: sans-serif;
@@ -738,7 +707,7 @@ body {
     width: 30px;
     height: 4px;
     border-radius: 2px;
-    background-color: #0f33ff
+    background-color: #0f33ff;
 }
 
 .intro--banner h1 {
@@ -1595,11 +1564,26 @@ body {
     -ms-flex-pack: distribute;
     justify-content: space-around
 }
+.copyright_bar{
+    position: absolute;
+	width: 100%;
+    bottom: 5px;
+    text-align: center;
+	font-size: 12px;
+	font-weight: 100;
+    color: #313131;
+    z-index: 9999;
+}
+.copyright_bar a{
+    text-decoration: none;
+    color: #857a7a;
+    font-weight: 200;
+}
 
 .work-request--options label {
     display: block;
     width: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     line-height: 50px;
     font-size: 16px;
     font-weight: 700;
@@ -1610,7 +1594,9 @@ body {
     -webkit-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
     transition: background-color .2s ease-in-out, border-color .2s ease-in-out
 }
-
+.logobranding{
+    margin-bottom: 10px !important;
+}
 .work-request--options label svg {
     position: relative;
     left: -5px;
@@ -1646,7 +1632,7 @@ body {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: 60px
+    margin-bottom: 30px
 }
 
 .work-request--information .information-name,
@@ -1655,7 +1641,7 @@ body {
     width: 45%;
     height: 50px;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: 300;
 }
 .work-request--information .information-message {
