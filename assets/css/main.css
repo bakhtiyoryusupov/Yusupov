@@ -813,13 +813,13 @@ body {
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #282828;
+    color: #fff;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
 
 .intro--options>a:hover {
-    color: #fff
+    color: #0f33ff;
 }
 
 .intro--options h3 {
