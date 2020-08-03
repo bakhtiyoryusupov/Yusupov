@@ -1567,11 +1567,11 @@ body {
 .copyright_bar{
     position: absolute;
 	width: 100%;
-    bottom: 5px;
+    bottom: 1px;
     text-align: center;
 	font-size: 12px;
 	font-weight: 100;
-    color: #313131;
+    color: #fff;
     z-index: 9999;
 }
 .copyright_bar a{
