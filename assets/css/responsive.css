@@ -61,4 +61,10 @@
         background-position: bottom;
         background-size: 100%;
     }
+    .intro--options>a{
+        color: #ffffff;
+    }
+    .intro--options>a:hover{
+        color: #0f33ff;
+    }
 }

@@ -813,13 +813,13 @@ body {
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #fff;
+    color: #282828;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
 
 .intro--options>a:hover {
-    color: #0f33ff;
+    color: #fff;
 }
 
 .intro--options h3 {
@@ -1639,6 +1639,9 @@ body {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -1650,6 +1653,14 @@ body {
 .work-request--information .information-email {
     position: relative;
     width: 45%;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.work-request--information .information-message {
+    position: relative;
+    width: 100%;
     height: 50px;
     font-size: 30px;
     font-weight: 300
