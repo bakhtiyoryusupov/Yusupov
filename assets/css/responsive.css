@@ -46,8 +46,17 @@
     .about--banner{
         margin-bottom: 30px;
     }
+    
+}
+@media (max-width: 600px){
     .intro{
         background-image: url(../img/introduction-visual.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+    }
+    .about{
+        background-image: url(../img/about-visual.png);
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 100%;
