@@ -61,7 +61,9 @@
         background-position: bottom;
         background-size: 100%;
     }
-    .intro--options{
+    .intro--options,
+    .intro--options::after,
+    .intro--options::before{
         display: none;   
     }
 }
