@@ -63,30 +63,7 @@
             <li><span>Contact</span></li>
           </ul>
         </nav>
-             <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-window.fbAsyncInit = function() {
-  FB.init({
-    xfbml            : true,
-    version          : 'v8.0'
-  });
-};
-
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your Chat Plugin code -->
-<div class="fb-customerchat"
-  attribution=install_email
-  page_id="109962020608135"
-  theme_color="#0f33ff">
-</div>
+             
         <ul class="l-main-content main-content">
           <li class="l-section section section--is-active">
             <div class="intro">
@@ -247,6 +224,30 @@ window.fbAsyncInit = function() {
     <li>About</li>
     <li>Contact</li>
   </ul>
+  <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v8.0'
+  });
+};
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+  attribution=install_email
+  page_id="109962020608135"
+  theme_color="#0f33ff">
+</div>
 </div>
 <div class="cursor" id="cursor" style="left: 701px; top: 418px;"></div>
   <div class="cursor2" id="cursor2" style="left: 701px; top: 418px;"></div>
