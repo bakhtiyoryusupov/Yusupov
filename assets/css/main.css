@@ -2081,5 +2081,5 @@ body {
     box-shadow: 0px 0px 8px 3px rgba(15,0,255,0.5);
 }
 .fb-customerchat{
-	height: 50%;
+	height: 50% !important;
 }
