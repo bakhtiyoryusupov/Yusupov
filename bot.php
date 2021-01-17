@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '12345678:replace-me-with-real-token');
+define('BOT_TOKEN', '1229800607:AAGV2Ha1DEmIriYPPkzM0UFCq37RuEmYic0');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -143,7 +143,7 @@ function processMessage($message) {
 }
 
 
-define('WEBHOOK_URL', 'https://my-site.example.com/secret-path-for-webhooks/');
+define('WEBHOOK_URL', 'https://bakhtiyoryusupov.github.io/yusupov/bot.php');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
