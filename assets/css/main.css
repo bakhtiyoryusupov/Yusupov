@@ -220,15 +220,18 @@ th {
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background: #fffc00;
+    color: #191919;
 }
 
 ::selection {
-    background: #FFF498
+    background: #fffc00;
+    color: #191919;
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background: #fffc00;
+    color: #191919;
 }
 
 img::-moz-selection {
@@ -1535,14 +1538,13 @@ body {
 }
 
 .copyright_bar {
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 1px;
     text-align: center;
     font-size: 12px;
     font-weight: 100;
     color: #fff;
-    z-index: 9999;
 }
 
 .copyright_bar a {
@@ -2051,4 +2053,9 @@ body {
 
 .fb-customerchat {
     height: 50% !important;
+}
+
+.demo {
+    position: absolute;
+    z-index: 10000000000;
 }
