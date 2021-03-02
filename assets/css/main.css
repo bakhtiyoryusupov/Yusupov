@@ -2058,4 +2058,7 @@ body {
 .demo {
     position: absolute;
     z-index: 10000000000;
+    top: 100px;
+    right: 0;
+    height: 50px;
 }
