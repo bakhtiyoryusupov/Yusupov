@@ -2070,6 +2070,7 @@ body {
 
 .cursor2 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     border: 2px solid #08a8f4;
     background: #08a8f438;
     -webkit-box-shadow: 0px 0px 8px 3px rgba(15, 0, 255, 0.5);
@@ -2096,3 +2097,19 @@ body {
 	height: 50% !important;
 >>>>>>> parent of 25f49ff (update cursor size)
 }
+=======
+    border: 2px solid #0f33ff;
+    background: #0f33ff38;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(15,0,255,0.5);
+    box-shadow: 0px 0px 8px 3px rgba(15,0,255,0.5);
+}
+
+.cursor2.hover {
+    background: #0f33ff;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(15,0,255,0.5);
+    box-shadow: 0px 0px 8px 3px rgba(15,0,255,0.5);
+}
+.fb-customerchat{
+	height: 50% !important;
+}
+>>>>>>> parent of 25f49ff (update cursor size)
