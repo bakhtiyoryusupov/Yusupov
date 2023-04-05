@@ -706,7 +706,7 @@ body {
 
 @media (max-width: 1180px) {
     .intro {
-        max-width: 100%
+        max-width:100%
     }
 }
 
@@ -732,7 +732,7 @@ body {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #fa1313;
+    background-color: #fa1313
 }
 
 .intro--banner h1 {
@@ -740,8 +740,7 @@ body {
     font-size: 68px;
     font-weight: 900;
     line-height: 1;
-    z-index: 1;
-    margin-top: 130px;
+    z-index: 1
 }
 
 .intro--banner button {
@@ -783,9 +782,7 @@ body {
 .intro--banner img {
     position: absolute;
     bottom: 21px;
-    right: -12px;
-    max-height: 463px;
-    height: 100%;
+    right: -12px
 }
 
 .intro--options {
@@ -799,8 +796,7 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    list-style: none;
-    flex-wrap: wrap;
+    list-style: none
 }
 
 .intro--options>a {
@@ -812,7 +808,7 @@ body {
 }
 
 .intro--options>a:hover {
-    color: #fff;
+    color: #fff
 }
 
 .intro--options h3 {
@@ -826,21 +822,21 @@ body {
 
 @media (max-width: 900px) {
     .intro--banner {
-        max-height: 380px
+        height:380px
     }
+
     .intro--banner h1 {
-        font-size: 45px;
+        font-size: 55px
     }
+
     .intro--banner img {
-        max-height: 280px;
+        width: 430px
     }
-    .intro--options {
-        display: flex;
-    }
+
     .intro--options>a {
-        margin-right: 0;
-        max-width: 50%;
+        margin-right: 30px
     }
+
     .intro--options>a:last-child {
         margin-right: 0
     }
@@ -848,22 +844,27 @@ body {
 
 @media (max-width: 767px) {
     .intro--banner {
-        height: 305px
+        height:305px
     }
+
     .intro--banner h1 {
         font-size: 44px
     }
+
     .intro--banner img {
-        max-width: 330px
+        width: 330px
     }
+
     .intro--options {
-        display: flex
+        display: block
     }
+
     .intro--options>a {
-        display: inline-block;
-        max-width: 50%;
-        margin: 0 0 0px 0
+        display: block;
+        max-width: 100%;
+        margin: 0 0 30px 0
     }
+
     .intro--options>a:last-child {
         margin-bottom: 0
     }
@@ -871,11 +872,13 @@ body {
 
 @media (max-width: 600px) {
     .intro--banner {
-        height: 360px
+        height:360px
     }
+
     .intro--banner h1 {
         font-size: 55px
     }
+
     .intro--banner img {
         display: none
     }
@@ -883,15 +886,17 @@ body {
 
 @media (max-width: 600px) and (max-height: 750px) {
     .intro--banner {
-        height: auto
+        height:auto
     }
-    .intro--banner::before,
-    .intro--banner::after {
+
+    .intro--banner::before,.intro--banner::after {
         display: none
     }
+
     .intro--banner h1 {
         margin-top: 0
     }
+
     .intro--options {
         display: none
     }
@@ -1247,23 +1252,27 @@ body {
 }
 
 .about--options>a:nth-child(1) {
-    background-image: url("../img/1.png")
+    background-image: url("../img/loading.jpg")
 }
 
 .about--options>a:nth-child(2) {
-    background-image: url("../img/2.jpg")
+    background-image: url("../img/loading.jpg")
 }
 
 .about--options>a:nth-child(3) {
-    background-image: url("../img/3.jpg")
+    background-image: url("../img/loading.jpg")
 }
 
 .about--options>a:nth-child(4) {
-    background-image: url("../img/4.png")
+    background-image: url("../img/loading.jpg")
 }
 
 .about--options>a:hover h3 {
     bottom: -50px
+}
+
+.about--options>a{
+    filter: grayscale();
 }
 
 .about--options h3 {
@@ -2328,8 +2337,18 @@ body {
 
 .demo {
     position: absolute;
-    z-index: 10000000000;
-    top: 100px;
-    right: 0;
-    height: 10%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #fa1313;
+    border: none;
+    -webkit-transition: opacity .4s ease-in-out,visibility 0s .4s;
+    transition: opacity .4s ease-in-out,visibility 0s .4s;
 }

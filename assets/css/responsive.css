@@ -49,21 +49,21 @@
     
 }
 @media (max-width: 600px){
-    .intro{
+    /* .intro{
         background-image: url(../img/introduction-visual.png);
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 100%;
-    }
+    } */
     .about{
         background-image: url(../img/about-visual.png);
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 100%;
     }
-    .intro--options,
+    /* .intro--options,
     .intro--options::after,
     .intro--options::before{
         display: none;   
-    }
+    } */
 }
