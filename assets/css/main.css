@@ -7,6 +7,7 @@
     url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.svg#TT Firs Neue") format("svg"); /* iOS 4.1- */
 }
+@import url('fonts/stylesheet.css');
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -267,7 +268,7 @@ body {
     background-color: #0c0c0c;
     font-size: 14px;
     line-height: 1.6;
-    font-family: "TT Firs Neue";
+    font-family: 'TT Firs Neue';
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%
