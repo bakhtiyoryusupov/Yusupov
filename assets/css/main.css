@@ -11,9 +11,17 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
-:root{
-    
---font-polysans: "__polySans_5fdfbc", "__polySans_Fallback_5fdfbc", Helvetica, Arial, sans-serif;
+.__variable_8812cd {
+    --font-polysans-mono: "__polySansMono_8812cd","__polySansMono_Fallback_8812cd",Courier New,Courier,monospace;
+}
+.__variable_5fdfbc {
+    --font-polysans: "__polySans_5fdfbc","__polySans_Fallback_5fdfbc",Helvetica,Arial,sans-serif;
+}
+.__variable_e627f3 {
+    --font-manuka: "__manuka_e627f3","__manuka_Fallback_e627f3",Impact,Helvetica,sans-serif;
+}
+.__variable_3b2615 {
+    --font-fkroman: "__fkRomanStandard_3b2615","__fkRomanStandard_Fallback_3b2615",Georgia,serif;
 }
 
 html {
@@ -268,7 +276,7 @@ body {
     background-color: #0c0c0c;
     font-size: 14px;
     line-height: 1.6;
-    font-family: 'TT Firs Neue', 'Montserrat';
+    font-family: var(--font-polysans), 'TT Firs Neue', 'Montserrat';
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%
