@@ -472,19 +472,19 @@ th {
     padding: 0
 }
 
-::-moz-selection {
-    background: #fffc00;
-    color: #191919;
+::-moz-selection, ::selection {
+    background: #5200ffbf;
+    color: #fff;
 }
 
 ::selection {
-    background: #fffc00;
-    color: #191919;
+    background: #5200ffbf;
+    color: #fff;
 }
 
 ::-moz-selection {
-    background: #fffc00;
-    color: #191919;
+    background: #5200ffbf;
+    color: #fff;
 }
 
 img::-moz-selection {
@@ -518,7 +518,8 @@ body {
     width: 100%;
     height: 100vh;
     box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.85);
-    overflow: hidden
+    overflow: hidden;
+    user-select: auto !important;
 }
 
 .l-wrapper {
@@ -800,7 +801,7 @@ body {
     color: #fff;
     font-weight: 700;
     text-transform: lowercase;
-    background-color: #fa1313;
+    background-color: #5200ff;
     border: none;
     opacity: 0;
     visibility: hidden;
@@ -897,7 +898,7 @@ body {
 }
 
 .side-nav li.is-active {
-    color: #fa1313;
+    color: #5200ff;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out;
 }
@@ -963,7 +964,7 @@ body {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #fa1313
+    background-color: #5200ff
 }
 
 .intro--banner h1 {
@@ -990,7 +991,7 @@ body {
     left: 23px;
     right: 0;
     height: 100%;
-    background-color: #fa1313;
+    background-color: #5200ff;
     z-index: -1;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
@@ -1381,7 +1382,7 @@ body {
     left: 200px;
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
-    border: 5px solid #fa1313;
+    border: 5px solid #5200ff;
     border-right-color: transparent;
     border-bottom-color: transparent
 }
@@ -1395,7 +1396,7 @@ body {
     transform: rotate(45deg);
     width: 10px;
     height: 10px;
-    background-color: #fa1313
+    background-color: #5200ff
 }
 
 .about--banner h2 {
@@ -1414,7 +1415,7 @@ body {
     left: 268px;
     width: 30px;
     height: 30px;
-    background-color: #fa1313;
+    background-color: #5200ff;
     border-radius: 50%
 }
 
@@ -1425,7 +1426,7 @@ body {
     left: 255px;
     width: 10px;
     height: 10px;
-    background-color: #fa1313
+    background-color: #5200ff
 }
 
 .about--banner a {
@@ -1477,7 +1478,7 @@ body {
     height: 75px !important;
     text-decoration: none;
     color: #fff;
-    border: 10px solid #fa1313;
+    border: 10px solid #5200ff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1673,7 +1674,7 @@ body {
 
 .contact--lockup .modal--options li:nth-child(3) {
     margin-bottom: 0;
-    background-color: #fa1313;
+    background-color: #5200ff;
     text-transform: uppercase
 }
 
@@ -1744,7 +1745,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #fa1313;
+    background-color: #5200ff;
     border: none;
     /* border-radius: 40px; */
 }
@@ -1846,8 +1847,8 @@ body {
 }
 
 .work-request--options input[type="checkbox"]:checked+label {
-    background-color: #fa1313;
-    border-color: #fa1313
+    background-color: #5200ff;
+    border-color: #5200ff
 }
 
 .work-request--options input[type="checkbox"]:checked+label svg {
@@ -1989,7 +1990,7 @@ body {
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
     min-height: 100%;
-    outline: 30px solid #fa1313;
+    outline: 30px solid #5200ff;
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
     transition: transform .4s;
@@ -2017,7 +2018,7 @@ body {
 .effect-rotate-left--animate .container {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline: 30px solid #fa1313
+    outline: 30px solid #5200ff
 }
 
 .outer-nav {
@@ -2091,7 +2092,7 @@ body {
     width: 110%;
     height: 15px;
     opacity: 0;
-    background-color: #fa1313
+    background-color: #5200ff
 }
 
 .outer-nav>li.is-active::before {
@@ -2528,7 +2529,7 @@ body {
 }
 
 .cursor {
-    background-color: #fa1313;
+    background-color: #5200ff;
     height: 0;
     width: 0;
     z-index: 99999
@@ -2551,16 +2552,16 @@ body {
 }
 
 .cursor2 {
-    border: 2px solid #fa1313;
-    background: #fa131338;
-    -webkit-box-shadow: 0px 0px 8px 3px rgba(254, 31, 70, 0.5);
-    box-shadow: 0px 0px 8px 3px rgba(254, 31, 70, 0.5);
+    border: 2px solid #5200ff;
+    background: #5200ff38;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
+    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
 }
 
 .cursor2.hover {
-    background: #fa1313;
-    -webkit-box-shadow: 0px 0px 8px 3px rgba(254, 31, 70, 0.5);
-    box-shadow: 0px 0px 8px 3px rgba(254, 31, 70, 0.5);
+    background: #5200ff;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
+    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
 }
 
 .fb-customerchat {
@@ -2579,8 +2580,30 @@ body {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #fa1313;
+    background-color: #5200ff;
     border: none;
     -webkit-transition: opacity .4s ease-in-out,visibility 0s .4s;
     transition: opacity .4s ease-in-out,visibility 0s .4s;
+}
+
+.loading{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 14000;
+    transition: opacity 3s linear 1s;
+}
+/* .loading .device-notification--logo{
+    height: 40px;
+    opacity: 1;
+} */
+
+#page{
+    display: none;
 }
