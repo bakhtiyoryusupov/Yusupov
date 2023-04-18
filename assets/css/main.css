@@ -507,7 +507,7 @@ body {
     background-color: #0c0c0c;
     font-size: 14px;
     line-height: 1.6;
-    font-family: var(--font-polysans), 'TT Firs Neue', 'Montserrat';
+    font-family: var(--font-polysans-mono), 'TT Firs Neue', 'Montserrat';
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%
@@ -992,6 +992,7 @@ body {
     right: 0;
     height: 100%;
     background-color: #5200ff;
+    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
     z-index: -1;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
@@ -2092,7 +2093,8 @@ body {
     width: 110%;
     height: 15px;
     opacity: 0;
-    background-color: #5200ff
+    background-color: #5200ff;
+    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
 }
 
 .outer-nav>li.is-active::before {
@@ -2581,6 +2583,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     background-color: #5200ff;
+    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
     border: none;
     -webkit-transition: opacity .4s ease-in-out,visibility 0s .4s;
     transition: opacity .4s ease-in-out,visibility 0s .4s;
