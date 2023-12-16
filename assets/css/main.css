@@ -1434,13 +1434,13 @@ body {
     padding: 5px 17px 5px 0;
     text-decoration: none;
     color: #fff;
-    font-weight: 1500;
+    font-weight: 700;
     text-transform: uppercase;
     background-color: transparent;
 }
 
 .about--banner a:hover svg {
-    top: 1px
+    left: 10px
 }
 
 .about--banner a svg {
