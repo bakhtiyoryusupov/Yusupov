@@ -87,8 +87,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
-<body onload="startSound()">
-    <audio loop autoplay hidden height="0" width="0">
+<body>
+    <audio loop autoplay hidden preload height="0" width="0" id="audioPlayer">
         <source src="https://bkhtdev.com/audio/leveltwo_ambient_4_lufs_18.mp3">
         <source src="https://bkhtdev.com/audio/leveltwo_ambient_4_lufs_18.ogg">
         <source src="https://bkhtdev.com/audio/leveltwo_ambient_4_lufs_18.wav">
@@ -106,7 +106,7 @@
                             }
                         </style>
                     </defs>
-                    <path class="cls-1"
+                    <path fill="#fff"
                         d="M26.96,5.04V22.01l-4.9,4.95H5.04V9.99l4.9-4.95H26.96M32,0H7.84L0,7.91v24.09H24.16l7.84-7.91V0h0Z" />
                 </svg>
                 <p>bkhtdev</p>
@@ -144,7 +144,7 @@
                 <div id="viewport" class="l-viewport">
                     <div class="l-wrapper">
                         <div class="mute-border">
-                            <div class="mute" onclick="muteAudio()"></div>
+                            <div class="mute" id="mute"></div>
                         </div>
                         <header class="header">
                             <a class="header--logo" href="#0">
