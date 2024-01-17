@@ -1469,8 +1469,6 @@ document.addEventListener("DOMContentLoaded", () =>
     $("#load").fadeOut("slow");
     wait(1000).then(() => {
       $("#page").fadeIn();
-      //play audio
-      $("audio").prop("play", 1);
     });
   })
 );
