@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@font-face {font-family: "TT Firs Neue";
-    src: url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.eot"); /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.svg#TT Firs Neue") format("svg"); /* iOS 4.1- */
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.eot");
+    /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.woff2") format("woff2"),
+        /* chrome firefox */
+        url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.woff") format("woff"),
+        /* chrome firefox */
+        url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.ttf") format("truetype"),
+        /* chrome firefox opera Safari, Android, iOS 4.2+*/
+        url("http://db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.svg#TT Firs Neue") format("svg");
+    /* iOS 4.1- */
 }
+
 @import url('fonts/stylesheet.css');
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -472,7 +481,8 @@ th {
     padding: 0
 }
 
-::-moz-selection, ::selection {
+::-moz-selection,
+::selection {
     background: #5200ffbf;
     color: #fff;
 }
@@ -746,6 +756,11 @@ body {
     text-transform: lowercase
 }
 
+.header--logo p span, .device-notification--logo p span{
+    font-weight: 300;
+    font-size: 10px;
+}
+
 .header--nav-toggle {
     display: -webkit-box;
     display: -webkit-flex;
@@ -938,7 +953,7 @@ body {
 
 @media (max-width: 1180px) {
     .intro {
-        max-width:100%
+        max-width: 100%
     }
 }
 
@@ -1056,7 +1071,7 @@ body {
 
 @media (max-width: 900px) {
     .intro--banner {
-        height:380px
+        height: 380px
     }
 
     .intro--banner h1 {
@@ -1078,7 +1093,7 @@ body {
 
 @media (max-width: 767px) {
     .intro--banner {
-        height:305px
+        height: 305px
     }
 
     .intro--banner h1 {
@@ -1106,7 +1121,7 @@ body {
 
 @media (max-width: 600px) {
     .intro--banner {
-        height:360px
+        height: 360px
     }
 
     .intro--banner h1 {
@@ -1120,10 +1135,11 @@ body {
 
 @media (max-width: 600px) and (max-height: 750px) {
     .intro--banner {
-        height:auto
+        height: auto
     }
 
-    .intro--banner::before,.intro--banner::after {
+    .intro--banner::before,
+    .intro--banner::after {
         display: none
     }
 
@@ -1306,10 +1322,12 @@ body {
         width: 120px;
         height: 120px
     }
+
     .work--lockup .slider--item-center .slider--item-image {
         width: 240px;
         height: 240px
     }
+
     .work--lockup .slider--next,
     .work--lockup .slider--prev {
         top: 130px
@@ -1320,14 +1338,17 @@ body {
     .work--lockup .slider {
         width: 75%
     }
+
     .work--lockup .slider--item-image {
         width: 90px;
         height: 90px
     }
+
     .work--lockup .slider--item-center .slider--item-image {
         width: 190px;
         height: 190px
     }
+
     .work--lockup .slider--next,
     .work--lockup .slider--prev {
         top: 105px
@@ -1338,6 +1359,7 @@ body {
     .work--lockup .slider {
         width: auto
     }
+
     .work--lockup .slider--item-left,
     .work--lockup .slider--item-right {
         display: none
@@ -1519,26 +1541,32 @@ body {
     .about--banner {
         height: 305px
     }
+
     .about--banner::before {
         top: 0;
         left: 125px
     }
+
     .about--banner::after {
         top: 35px;
         left: 260px
     }
+
     .about--banner h2 {
         margin-top: 10px;
         font-size: 44px
     }
+
     .about--banner h2::before {
         top: 28px;
         left: 168px
     }
+
     .about--banner h2::after {
         top: 163px;
         left: 163px
     }
+
     .about--banner img {
         width: 315px
     }
@@ -1548,32 +1576,40 @@ body {
     .about--banner {
         height: auto
     }
+
     .about--banner::before {
         left: 155px
     }
+
     .about--banner::after {
         left: 310px
     }
+
     .about--banner h2 {
         margin-top: 0;
         font-size: 55px
     }
+
     .about--banner h2::before {
         top: 43px;
         left: 214px
     }
+
     .about--banner h2::after {
         top: 205px;
         left: 205px
     }
+
     .about--banner img {
         display: none
     }
+
     .about--options {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
+
     .about--options a {
         -ms-flex: 0 0 25% !important;
         flex: 0 0 25% !important;
@@ -1920,6 +1956,7 @@ body {
         -ms-flex-pack: distribute;
         justify-content: space-around
     }
+
     .work-request--options .options-a,
     .work-request--options .options-b {
         display: block;
@@ -1948,12 +1985,15 @@ body {
         margin-bottom: 15px;
         font-size: 14px
     }
+
     .work-request--options input[type="checkbox"]:checked+label svg {
         width: 12px
     }
+
     .work-request--information {
         margin-bottom: 30px
     }
+
     .work-request--information .information-name,
     .work-request--information .information-email {
         height: 40px;
@@ -2236,6 +2276,7 @@ body {
     0% {
         transform: scaleY(.1)
     }
+
     to {
         transform: scaleY(1)
     }
@@ -2245,6 +2286,7 @@ body {
     0% {
         transform: scaleY(1)
     }
+
     to {
         transform: scaleY(.1)
     }
@@ -2272,7 +2314,7 @@ body {
 
 
 .audio-button-icon-inner-off-1917,
-.audio-button-icon-inner-on-1917{
+.audio-button-icon-inner-on-1917 {
 
     background-repeat: no-repeat;
     background-position: 50%;
@@ -2390,7 +2432,7 @@ body {
     align-items: center;
     opacity: 0;
     bottom: 20px;
-    right:20px;
+    right: 20px;
     cursor: pointer;
     pointer-events: auto
 }
@@ -2448,7 +2490,8 @@ body {
         margin: 0 0 0 16px
     }
 }
-.mute-border{
+
+.mute-border {
     height: 40px;
     width: 40px;
     position: absolute;
@@ -2461,10 +2504,12 @@ body {
     border: 2px solid #282828;
     z-index: 999999;
 }
-.mute-border:hover{
+
+.mute-border:hover {
     border-color: #fff;
 }
-.mute-border:hover .mute{
+
+.mute-border:hover .mute {
     filter: grayscale(0%) saturate(0%) contrast(100%);
 }
 
@@ -2573,11 +2618,11 @@ body {
     background-color: #5200ff;
     box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
     border: none;
-    -webkit-transition: opacity .4s ease-in-out,visibility 0s .4s;
-    transition: opacity .4s ease-in-out,visibility 0s .4s;
+    -webkit-transition: opacity .4s ease-in-out, visibility 0s .4s;
+    transition: opacity .4s ease-in-out, visibility 0s .4s;
 }
 
-.loading{
+.loading {
     display: flex;
     width: 100%;
     height: 100%;
@@ -2590,11 +2635,12 @@ body {
     z-index: 14000;
     transition: opacity 3s linear 1s;
 }
+
 /* .loading .device-notification--logo{
     height: 40px;
     opacity: 1;
 } */
 
-#page{
+#page {
     display: none;
 }
