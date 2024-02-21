@@ -1454,22 +1454,37 @@ $(document).on("mousemove", (e) =>
     .add($cursor3)
     .css({ left: e.pageX + "px", top: e.pageY + "px" })
 );
+// $(function () {
+//   var btn = $("#mute");
+//   $("audio").prop("muted", !1),
+//     btn.click(function () {
+//       // if btn has class paused then remove it and add playing
+//       // else remove playing and add paused
+//       btn.hasClass("paused")
+//         ? (btn.removeClass("paused"), $("audio").prop("muted", !1))
+//         : (btn.addClass("paused"), $("audio").prop("muted", !0));
+//     });
+// });
+
 $(function () {
   var btn = $("#mute");
-  $("audio").prop("muted", !1),
-    btn.click(function () {
-      return btn.hasClass("paused")
-        ? ($("audio").prop("muted", !1), btn.removeClass("paused"))
-        : ($("audio").prop("muted", !0), btn.addClass("paused"));
-    });
+  var audio = $("audio")[0]; // Get the actual DOM element of the audio
+
+  btn.click(function () {
+    // if btn has class paused then remove it and add playing
+    // else remove playing and add paused
+    btn.hasClass("paused")
+      ? (btn.removeClass("paused"), audio.play(), (audio.muted = false))
+      : (btn.addClass("paused"), audio.pause(), (audio.muted = true));
+  });
 });
 const wait = (d = 0) => new Promise((r) => setTimeout(r, d));
-document.addEventListener("DOMContentLoaded", () =>
+document.addEventListener("DOMContentLoaded", () => {
   wait(1000).then(() => {
     $("#load").fadeOut("slow");
     wait(1000).then(() => {
-      $("#audioPlayer").trigger("autoplay");
       $("#page").fadeIn();
+      $("audio")[0].play();
     });
-  })
-);
+  });
+});
