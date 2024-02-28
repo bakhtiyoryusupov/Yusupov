@@ -496,11 +496,11 @@ body {
 }
 
 body {
-    background-color: #0c0c0c;
+    background-color: #0a0a0a;
     font-size: 14px;
     line-height: 1.6;
     font-family: var(--font-polysans-mono), 'TT Firs Neue', 'Montserrat';
-    color: #fff;
+    color: #f8f8f8;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%
 }
@@ -593,7 +593,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #0c0c0c;
+    background-color: #0a0a0a;
     z-index: 12
 }
 
@@ -607,7 +607,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     text-decoration: none;
-    color: #fff
+    color: #f8f8f8
 }
 
 .device-notification--logo p {
@@ -724,7 +724,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     text-decoration: none;
-    color: #fff
+    color: #f8f8f8
 }
 
 .logo {
@@ -774,7 +774,7 @@ body {
     position: relative;
     width: 16px;
     height: 2px;
-    background-color: #fff
+    background-color: #f8f8f8
 }
 
 .header--nav-toggle::before {
@@ -796,7 +796,7 @@ body {
     padding: 0 20px;
     line-height: 30px;
     text-decoration: none;
-    color: #fff;
+    color: #f8f8f8;
     font-weight: 700;
     text-transform: lowercase;
     background-color: #5200ff;
@@ -850,7 +850,7 @@ body {
 .side-nav>li {
     position: relative;
     top: -5px;
-    color: #fff;
+    color: #f8f8f8;
     font-size: 6px;
     cursor: pointer
 }
@@ -859,7 +859,7 @@ body {
     position: relative;
     top: 3px;
     left: 10px;
-    color: #fff;
+    color: #f8f8f8;
     font-size: 14px;
     font-weight: 300;
     opacity: 0;
@@ -910,7 +910,7 @@ body {
 
 .side-nav li.is-active::before {
     left: -33px;
-    color: #fff;
+    color: #f8f8f8;
 }
 
 .intro {
@@ -1008,7 +1008,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #fff
+    fill: #f8f8f8
 }
 
 .intro--banner img {
@@ -1040,7 +1040,7 @@ body {
 }
 
 .intro--options>a:hover {
-    color: #fff
+    color: #f8f8f8
 }
 
 .intro--options h3 {
@@ -1246,7 +1246,7 @@ body {
 }
 
 .work--lockup .slider--item-center a {
-    color: #fff
+    color: #f8f8f8
 }
 
 .work--lockup .slider--item-center .slider--item-title {
@@ -1289,7 +1289,7 @@ body {
 .work--lockup .slider--next svg,
 .work--lockup .slider--prev svg {
     width: 20px;
-    fill: #fff
+    fill: #f8f8f8
 }
 
 .work--lockup .slider--next {
@@ -1438,7 +1438,7 @@ body {
 .about--banner a {
     padding: 5px 17px 5px 0;
     text-decoration: none;
-    color: #fff;
+    color: #f8f8f8;
     font-weight: 700;
     text-transform: uppercase;
     background-color: transparent;
@@ -1452,7 +1452,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #fff;
+    fill: #f8f8f8;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out;
 }
@@ -1483,7 +1483,7 @@ body {
     width: 150px !important;
     height: 75px !important;
     text-decoration: none;
-    color: #fff;
+    color: #f8f8f8;
     border: 10px solid #5200ff;
     background-position: center;
     background-size: cover;
@@ -1652,7 +1652,7 @@ body {
 .contact--lockup .modal {
     padding: 45px 45px;
     text-align: center;
-    background-color: #0c0c0c;
+    background-color: #0a0a0a;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75);
     min-width: 250px;
 }
@@ -1662,7 +1662,7 @@ body {
     display: block;
     margin: 14px 0;
     text-decoration: none;
-    color: #fff;
+    color: #f8f8f8;
     font-weight: 700
 }
 
@@ -1692,7 +1692,7 @@ body {
     width: 100%;
     padding: 8px 0;
     text-decoration: none;
-    color: #fff;
+    color: #f8f8f8;
     font-weight: 700
 }
 
@@ -1744,7 +1744,7 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #fff
+    color: #f8f8f8
 }
 
 .work-request input[type="submit"] {
@@ -1814,7 +1814,7 @@ body {
     text-align: center;
     font-size: 12px;
     font-weight: 100;
-    color: #fff;
+    color: #f8f8f8;
 }
 
 .copyright_bar a {
@@ -1831,7 +1831,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-    border: 2px solid #fff;
+    border: 2px solid #f8f8f8;
     cursor: pointer;
     /* border-radius: 25px; */
     -webkit-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
@@ -1846,7 +1846,7 @@ body {
     position: relative;
     left: -5px;
     width: 0;
-    fill: #fff;
+    fill: #f8f8f8;
     -webkit-transition: width .2s ease-in-out;
     transition: width .2s ease-in-out
 }
@@ -1904,14 +1904,14 @@ body {
     padding: 0 0 5px 0;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #f8f8f8;
     border-radius: 0
 }
 
 .work-request--information input[type="text"]:focus,
 .work-request--information input[type="email"]:focus {
     outline: none;
-    background-color: #0c0c0c
+    background-color: #0a0a0a
 }
 
 .work-request--information label {
@@ -2293,7 +2293,7 @@ body {
 }
 
 .button-1917:hover {
-    color: #fff
+    color: #f8f8f8
 }
 
 
@@ -2331,7 +2331,7 @@ body {
 
 @media only screen and (min-width:1025px) {
     .close-video-button-inset-1917:hover .close-button-label-1917 {
-        color: #fff
+        color: #f8f8f8
     }
 }
 
@@ -2342,7 +2342,7 @@ body {
 }
 
 .close-video-button-inset-1917.active .close-button-label-1917 {
-    color: #fff
+    color: #f8f8f8
 }
 
 .close-video-button-inset-1917.active .button-gradient-1917 {
@@ -2423,7 +2423,7 @@ body {
 
 @media only screen and (min-width:1025px) {
     .audio-button-1917:hover .audio-button-label-1917 {
-        color: #fff
+        color: #f8f8f8
     }
 }
 
@@ -2434,7 +2434,7 @@ body {
 }
 
 .audio-button-1917.active .audio-button-label-1917 {
-    color: #fff
+    color: #f8f8f8
 }
 
 .audio-button-1917.active .button-gradient-1917 {
@@ -2490,7 +2490,7 @@ body {
 }
 
 .mute-border:hover {
-    border-color: #fff;
+    border-color: #f8f8f8;
 }
 
 .mute-border:hover .mute {
@@ -2511,7 +2511,7 @@ body {
     position: fixed;
     display: block;
     background: #39434e;
-    color: #fff;
+    color: #f8f8f8;
     border: none;
     padding: 0.5rem;
     outline: none;
@@ -2596,7 +2596,7 @@ body {
     padding: 0 20px;
     line-height: 30px;
     text-decoration: none;
-    color: #fff;
+    color: #f8f8f8;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #5200ff;
