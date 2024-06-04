@@ -1114,7 +1114,7 @@ body {
     }
 
     .intro--banner img {
-        opacity: 0.25;
+        opacity: 0.5;
         z-index: 0;
     }
 }
