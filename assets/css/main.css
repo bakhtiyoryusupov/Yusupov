@@ -805,7 +805,7 @@ body {
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity .4s ease-in-out, visibility 0s .4s;
-    transition: opacity .4s ease-in-out, visibility 0s .4s
+    transition: opacity .4s ease-in-out, visibility 0s .4s;
 }
 
 .header--cta:focus {
@@ -981,7 +981,8 @@ body {
     font-weight: 700;
     text-transform: lowercase;
     background-color: transparent;
-    border: none
+    border: none;
+    z-index: 10;
 }
 
 .intro--banner button .btn-background {
@@ -1113,7 +1114,8 @@ body {
     }
 
     .intro--banner img {
-        display: none
+        opacity: 0.25;
+        z-index: 0;
     }
 }
 
@@ -1132,6 +1134,10 @@ body {
     }
 
     .intro--options {
+        display: none
+    }
+
+    .intro--banner img {
         display: none
     }
 }

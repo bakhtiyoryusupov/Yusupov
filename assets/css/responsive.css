@@ -1,66 +1,87 @@
-@media (max-width: 1199.98px){
-    
-}
-@media (max-width: 991.98px){
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {
+
     .cursor,
     .cursor2,
     .cursor3 {
         display: none;
     }
-    .mute-border{
+
+    .mute-border {
         display: none;
     }
-    .intro--options h3{
+
+    .intro--options h3 {
         margin-top: 0 !important;
         margin-bottom: 8px !important;
     }
-    .intro--options p{
+
+    .intro--options p {
         margin-top: 0px !important;
         margin-bottom: 8px;
     }
-    .intro--banner h1{
+
+    .intro--banner h1 {
         margin-bottom: 25px !important;
     }
 }
-@media (max-width: 767.98px){
-    .intro--options a{
+
+@media (max-width: 767.98px) {
+    .intro--options a {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .intro--banner button, .intro--banner h1{
+
+    .intro--banner button,
+    .intro--banner h1 {
         transform: translateY(-50px);
     }
-    
+
 }
-@media (max-width: 575.98px){
-    .intro--banner button, .intro--banner h1{
+
+@media (max-width: 575.98px) {
+
+    .intro--banner button,
+    .intro--banner h1 {
         transform: translateY(0px);
     }
-    .intro--options h3{
+
+    .intro--options h3 {
         font-size: 15px;
     }
-    .intro--options p{
+
+    .intro--options p {
         font-size: 12px;
     }
-    .about--banner{
+
+    .about--banner {
         margin-bottom: 30px;
     }
-    
+
+    .intro--options a {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
-@media (max-width: 600px){
+
+@media (max-width: 600px) {
+
     /* .intro{
         background-image: url(../img/introduction-visual.png);
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 100%;
     } */
-    .about{
+    .about {
         background-image: url(../img/about-visual.png);
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 100%;
     }
+
     /* .intro--options,
     .intro--options::after,
     .intro--options::before{
