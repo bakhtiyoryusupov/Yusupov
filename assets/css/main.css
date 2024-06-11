@@ -478,19 +478,19 @@ th {
 ::-moz-selection,
 ::selection {
     background: #ffffffbf;
-    color: #fff;
+    color: #09090f;
     mix-blend-mode: difference;
 }
 
 ::selection {
     background: #ffffffbf;
-    color: #fff;
+    color: #09090f;
     mix-blend-mode: difference;
 }
 
 ::-moz-selection {
     background: #ffffffbf;
-    color: #fff;
+    color: #09090f;
     mix-blend-mode: difference;
 }
 
