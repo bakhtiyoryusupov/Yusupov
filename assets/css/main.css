@@ -479,16 +479,19 @@ th {
 ::selection {
     background: #ffffffbf;
     color: #fff;
+    mix-blend-mode: difference;
 }
 
 ::selection {
     background: #ffffffbf;
     color: #fff;
+    mix-blend-mode: difference;
 }
 
 ::-moz-selection {
     background: #ffffffbf;
     color: #fff;
+    mix-blend-mode: difference;
 }
 
 img::-moz-selection {
