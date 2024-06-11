@@ -1,4 +1,5 @@
 @import url('fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -44,11 +45,11 @@
 }
 
 :root {
-    font-family: __fkRomanStandard_3b2615, __fkRomanStandard_Fallback_3b2615, Georgia, serif
+    font-family: "Manrope", __fkRomanStandard_3b2615, __fkRomanStandard_Fallback_3b2615, Georgia, serif
 }
 
 :root {
-    --font-fkroman: "__fkRomanStandard_3b2615", "__fkRomanStandard_Fallback_3b2615", Georgia, serif
+    --font-fkroman: "Manrope", "__fkRomanStandard_3b2615", "__fkRomanStandard_Fallback_3b2615", Georgia, serif
 }
 
 @font-face {
@@ -158,11 +159,13 @@
 }
 
 :root {
-    font-family: __polySans_5fdfbc, __polySans_Fallback_5fdfbc, Helvetica, Arial, sans-serif
+    font-family: "Manrope", __polySans_5fdfbc, __polySans_Fallback_5fdfbc, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.04em;
 }
 
 :root {
-    --font-polysans: "__polySans_5fdfbc", "__polySans_Fallback_5fdfbc", Helvetica, Arial, sans-serif
+    --font-polysans: "Manrope", "__polySans_5fdfbc", "__polySans_Fallback_5fdfbc", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.04em;
 }
 
 @font-face {
@@ -239,11 +242,11 @@
 }
 
 .__className_8812cd {
-    font-family: __polySansMono_8812cd, __polySansMono_Fallback_8812cd, Courier New, Courier, monospace
+    font-family: "Manrope", __polySansMono_8812cd, __polySansMono_Fallback_8812cd, Courier New, Courier, monospace
 }
 
 .__variable_8812cd {
-    --font-polysans-mono: "__polySansMono_8812cd", "__polySansMono_Fallback_8812cd", Courier New, Courier, monospace
+    --font-polysans-mono: "Manrope", "__polySansMono_8812cd", "__polySansMono_Fallback_8812cd", Courier New, Courier, monospace
 }
 
 html {
@@ -364,6 +367,14 @@ pre {
     overflow: auto
 }
 
+h1,
+h2,
+h4,
+h5,
+h6 {
+    letter-spacing: -0.3rem;
+}
+
 code,
 kbd,
 pre,
@@ -466,17 +477,17 @@ th {
 
 ::-moz-selection,
 ::selection {
-    background: #5200ffbf;
+    background: #ffffffbf;
     color: #fff;
 }
 
 ::selection {
-    background: #5200ffbf;
+    background: #ffffffbf;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #5200ffbf;
+    background: #ffffffbf;
     color: #fff;
 }
 
@@ -500,7 +511,7 @@ body {
     background-color: #09090f;
     font-size: 14px;
     line-height: 1.6;
-    font-family: var(--font-polysans-mono), 'TT Firs Neue', 'Montserrat';
+    font-family: "Manrope", var(--font-polysans-mono), 'TT Firs Neue', 'Montserrat';
     color: #f8f8f8;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%
@@ -515,7 +526,8 @@ body {
     user-select: auto !important;
 }
 
-.l-wrapper {
+.l-wrapper,
+.footer {
     position: relative;
     width: 1440px;
     max-width: 90%;
@@ -735,6 +747,7 @@ body {
 .header--logo p {
     margin: 0 0 0 10px;
     font-size: 16px;
+    letter-spacing: normal;
     font-weight: 700;
     text-transform: lowercase
 }
@@ -800,12 +813,12 @@ body {
     color: #f8f8f8;
     font-weight: 700;
     text-transform: lowercase;
-    background-color: #5200ff;
+    background-color: #fff;
     border: none;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity .4s ease-in-out, visibility 0s .4s;
-    transition: opacity .4s ease-in-out, visibility 0s .4s;
+    transition: opacity .4s ease-in-out, visibility 0s .4s
 }
 
 .header--cta:focus {
@@ -897,7 +910,7 @@ body {
 }
 
 .side-nav li.is-active {
-    color: #5200ff;
+    color: #fff;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out;
 }
@@ -963,13 +976,13 @@ body {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #5200ff
+    background-color: #fff
 }
 
 .intro--banner h1 {
     position: relative;
     font-size: 68px;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 1;
     z-index: 1;
     margin-top: 130px;
@@ -980,9 +993,9 @@ body {
     padding: 5px 17px 5px 12px;
     font-weight: 700;
     text-transform: lowercase;
+    mix-blend-mode: difference;
     background-color: transparent;
-    border: none;
-    z-index: 10;
+    border: none
 }
 
 .intro--banner button .btn-background {
@@ -991,8 +1004,8 @@ body {
     left: 23px;
     right: 0;
     height: 100%;
-    background-color: #5200ff;
-    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 3px rgba(255, 255, 255, 0.5);
     z-index: -1;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
@@ -1010,7 +1023,11 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #f8f8f8
+    fill: #09090f
+}
+
+.intro--banner button span {
+    mix-blend-mode: difference;
 }
 
 .intro--banner img {
@@ -1114,8 +1131,7 @@ body {
     }
 
     .intro--banner img {
-        opacity: 0.5;
-        z-index: 0;
+        display: none
     }
 }
 
@@ -1134,10 +1150,6 @@ body {
     }
 
     .intro--options {
-        display: none
-    }
-
-    .intro--banner img {
         display: none
     }
 }
@@ -1172,6 +1184,7 @@ body {
 .work h2 {
     margin: 0 0 20px 0;
     font-size: 30px;
+    letter-spacing: -0.1rem;
     text-align: center
 }
 
@@ -1395,7 +1408,8 @@ body {
     left: 200px;
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
-    border: 5px solid #5200ff;
+    border: 5px solid #fff;
+    mix-blend-mode: difference;
     border-right-color: transparent;
     border-bottom-color: transparent
 }
@@ -1409,11 +1423,12 @@ body {
     transform: rotate(45deg);
     width: 10px;
     height: 10px;
-    background-color: #5200ff
+    background-color: #fff
 }
 
 .about--banner h2 {
     position: relative;
+    mix-blend-mode: difference;
     /* margin-top: 35px; */
     font-size: 68px;
     font-weight: 900;
@@ -1424,22 +1439,24 @@ body {
 .about--banner h2::before {
     content: "";
     position: absolute;
+    mix-blend-mode: difference;
     top: 60px;
     left: 268px;
     width: 30px;
     height: 30px;
-    background-color: #5200ff;
+    background-color: #fff;
     border-radius: 50%
 }
 
 .about--banner h2::after {
     content: "";
     position: absolute;
+    mix-blend-mode: difference;
     top: 255px;
     left: 255px;
     width: 10px;
     height: 10px;
-    background-color: #5200ff
+    background-color: #fff
 }
 
 .about--banner a {
@@ -1491,7 +1508,7 @@ body {
     height: 75px !important;
     text-decoration: none;
     color: #f8f8f8;
-    border: 10px solid #5200ff;
+    border: 10px solid #fff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1690,7 +1707,7 @@ body {
 
 
 .contact--lockup .modal--options li:nth-child(n) {
-    background-color: #5200ff;
+    background-color: #fff;
     text-transform: lowercase
 }
 
@@ -1699,7 +1716,7 @@ body {
     width: 100%;
     padding: 8px 0;
     text-decoration: none;
-    color: #f8f8f8;
+    color: #09090f;
     font-weight: 700
 }
 
@@ -1761,7 +1778,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-transform: lowercase;
-    background-color: #5200ff;
+    background-color: #fff;
     border: none;
     /* border-radius: 40px; */
 }
@@ -1814,12 +1831,60 @@ body {
     justify-content: space-around
 }
 
-.copyright_bar {
+footer {
     position: fixed;
-    width: 100%;
-    bottom: 1px;
+    bottom: 0;
+    width: 1440px;
+    height: 30px;
+    gap: 10px;
+    color: #f8f8f8;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: normal;
+    font-weight: 100;
+    display: flex !important;
+
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    color: #f8f8f8;
+    font-size: 12px;
+    gap: 10px;
+    list-style: none;
+    justify-content: flex-end;
+    padding-right: 40px;
+    height: 30px;
+    margin: 0;
+}
+
+footer ul li a {
+    display: flex;
+    color: #857a7a;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: normal;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: min-content;
+}
+
+footer ul li a svg {
+    width: 10px;
+    fill: #857a7a;
+}
+
+.copyright_bar {
     text-align: center;
     font-size: 12px;
+    letter-spacing: normal;
     font-weight: 100;
     color: #f8f8f8;
 }
@@ -1863,8 +1928,8 @@ body {
 }
 
 .work-request--options input[type="checkbox"]:checked+label {
-    background-color: #5200ff;
-    border-color: #5200ff
+    background-color: #fff;
+    border-color: #fff
 }
 
 .work-request--options input[type="checkbox"]:checked+label svg {
@@ -2010,7 +2075,7 @@ body {
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
     min-height: 100%;
-    outline: 30px solid #5200ff;
+    outline: 30px solid #fff;
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
     transition: transform .4s;
@@ -2038,7 +2103,7 @@ body {
 .effect-rotate-left--animate .container {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline: 30px solid #5200ff
+    outline: 30px solid #fff
 }
 
 .outer-nav {
@@ -2083,6 +2148,7 @@ body {
     -webkit-transform: translateX(350px) translateZ(-1000px);
     transform: translateX(350px) translateZ(-1000px);
     font-size: 55px;
+    letter-spacing: -0.2rem;
     font-weight: 900;
     opacity: 0;
     cursor: pointer;
@@ -2112,8 +2178,8 @@ body {
     width: 110%;
     height: 15px;
     opacity: 0;
-    background-color: #5200ff;
-    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 3px rgba(255, 255, 255, 0.5);
 }
 
 .outer-nav>li.is-active::before {
@@ -2486,7 +2552,7 @@ body {
     height: 40px;
     width: 40px;
     position: absolute;
-    bottom: 38px;
+    bottom: 70px;
     left: -20.5px;
     border-radius: 50%;
     display: flex;
@@ -2555,7 +2621,7 @@ body {
 }
 
 .cursor {
-    background-color: #5200ff;
+    background-color: #fff;
     height: 0;
     width: 0;
     z-index: 99999
@@ -2578,16 +2644,16 @@ body {
 }
 
 .cursor2 {
-    border: 2px solid #5200ff;
-    background: #5200ff38;
-    -webkit-box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
-    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
+    border: 2px solid #fff;
+    background: #ffffff38;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 8px 3px rgba(255, 255, 255, 0.5);
 }
 
 .cursor2.hover {
-    background: #5200ff;
-    -webkit-box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
-    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 8px 3px rgba(255, 255, 255, 0.5);
 }
 
 .fb-customerchat {
@@ -2606,8 +2672,8 @@ body {
     color: #f8f8f8;
     font-weight: 700;
     text-transform: lowercase;
-    background-color: #5200ff;
-    box-shadow: 0px 0px 8px 3px rgba(82, 0, 255, 0.5);
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 3px rgba(255, 255, 255, 0.5);
     border: none;
     -webkit-transition: opacity .4s ease-in-out, visibility 0s .4s;
     transition: opacity .4s ease-in-out, visibility 0s .4s;
